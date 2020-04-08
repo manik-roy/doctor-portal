@@ -1,0 +1,89 @@
+#main-home-page {
+  overflow: hidden;
+}
+.fwb {
+  font-weight: 700;
+}
+.main-home {
+  background:url("https://i.ibb.co/8YJs3MY/main-home2.png");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mybtn{
+  border-radius: 0;
+    padding: 15px 9px;
+    color: #fff;
+    outline: 0;
+    background-image:linear-gradient(to right, #19D3B0, #0FCFE8)
+  
+}
+.mybtn:hover {
+  color: #fff;
+  background-image:linear-gradient(to left, #19D3B0, #0FCFE8)
+}
+.home-primary:hover {
+  background-image:linear-gradient(to right, #19D3B0, #0FCFE8)
+}
+.home-location:hover {
+  background-image:linear-gradient(to right, #19D3B0, #0FCFE8);
+  transition: 1s;
+}
+.main-home-nav {
+  padding: 30px 30px !important;
+  padding-top: 35px;
+}
+#navbarNav {
+  z-index: 999;
+}
+.header-content {
+  margin-top: 100px;
+}
+.sidebar-content p {
+  line-height: 2;
+}
+.sidebar-image {
+  background:url("https://i.ibb.co/wsZ6Z1P/main-home.png");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#main-home-navbar {
+  position: relative;
+}
+#main-home-navbar::after {
+  position: absolute;
+  height: 1300px;
+  content: '';
+  width: 370px;
+  right: 0;
+  background: #3A4256;
+}
+section.header-bottom-content-aria {
+  margin-top: -150px;
+}
+.home-location {
+  background: #3A4256;
+  color: #fff;
+  transition: 1s;
+}
+.home-primary {
+  transition: .3s;
+  background: #1CC7C1;
+  color: #fff;
+}
+.main-home-icon {
+  font-size: 50px;
+  color: #fff;
+}
+.home-icons-container h6 {
+  font-weight: 700;
+  padding-top: 5px;
+}
+.home-icons-container p{
+  font-size: 12px;
+  padding-right: 5px;
+}
+.home-location,.home-primary{
+  cursor: pointer;
+}
