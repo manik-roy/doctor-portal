@@ -16,6 +16,7 @@ const AvailableAppointments = ({date}) => {
   },[])
 
   return (
+   
     <div className="container availableAppoitments-container">
       <div className="row ">
         <div className="col section-title text-center">

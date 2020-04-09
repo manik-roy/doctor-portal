@@ -1,0 +1,32 @@
+#login-page {
+  background: url('https://i.ibb.co/VL6Vc6Q/login.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 100vh;
+}
+.sign-in-container {
+  margin-top: 35%;
+}
+.signUp-form  {
+ padding: 50px;
+}
+.form-group label {
+  margin-bottom: 0;
+}
+input#password, #username {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+}
+.form-control:focus {
+  color: #495057;
+  /* background-color: #fff; */
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: none;
+}
+.sign-in-btn {
+  background-image:linear-gradient( to left,#18D2AE, #0FCFEA) ;
+}

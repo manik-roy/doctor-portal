@@ -6,10 +6,15 @@ const { Provider, Consumer } = Context = createContext()
 
 const UserProvider = (props) => {
 
-  const [user, setUser] = useState(null)
+  const [isAuth, setIsAuth] = useState(false)
 
   const [selectTedDate, setSelectDate] = useState('');
   const [cleaning, setCleaning] = useState(null);
+
+  // handle is auth
+  const handleAuth =() => {
+    setIsAuth(!isAuth)
+  }
 
   // handle date
   const handleSelectDate = date => {
@@ -24,11 +29,12 @@ const UserProvider = (props) => {
   return (
     <Provider value={
       {
-        user,
+        isAuth,
         handleSelectDate,
         handleCleaningName,
         selectTedDate,
-        cleaning
+        cleaning,
+        handleAuth
       }
     }>
       {props.children}
