@@ -1,0 +1,26 @@
+#appointment-form-page {
+  background: url('https://i.ibb.co/tZf324N/login.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 100vh;
+}
+.appointment-form-page-container {
+  margin-top: 35%;
+}
+.appointment-form   {
+ padding: 50px;
+}
+
+.form-control:focus {
+  color: #495057;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: none;
+}
+.appointment-submit {
+  background-image:linear-gradient( to left,#18D2AE, #0FCFEA) ;
+}
+.appointment-submit:hover {
+  background-image:linear-gradient( to right,#18D2AE, #0FCFEA) ;
+}

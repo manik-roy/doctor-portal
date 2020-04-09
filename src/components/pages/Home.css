@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
 #main-home-page {
   overflow: hidden;
 }
@@ -18,7 +22,30 @@
     background-image:linear-gradient(to right, #19D3B0, #0FCFE8)
   
 }
+.appointments-item-btn {
+  border-radius: 0;
+  padding: 8px 15px;
+  color: #fff;
+  outline: 0;
+  background-image: linear-gradient(to right, #19D3B0, #0FCFE8);
+  text-transform: uppercase;
+  
+}
+.card {
+  border:none;
+}
+.cp {
+  color: #10CFE5;
+}
+.appointments-item p {
+  font-size: 14px;
+}
+
 .mybtn:hover {
+  color: #fff;
+  background-image:linear-gradient(to left, #19D3B0, #0FCFE8)
+}
+.appointments-item-btn:hover {
   color: #fff;
   background-image:linear-gradient(to left, #19D3B0, #0FCFE8)
 }
@@ -66,8 +93,10 @@ section.header-bottom-content-aria {
   background: #3A4256;
   color: #fff;
   transition: 1s;
+  cursor: pointer;
 }
 .home-primary {
+  cursor: pointer;
   transition: .3s;
   background: #1CC7C1;
   color: #fff;
@@ -84,6 +113,21 @@ section.header-bottom-content-aria {
   font-size: 12px;
   padding-right: 5px;
 }
-.home-location,.home-primary{
-  cursor: pointer;
+.availableAppoitments-container {
+  margin-top: -150px;
 }
+
+.nice-dates-day:before {
+  background: #19D3B0;
+}
+.myclass {
+  display: block !important;
+}
+/* 
+
+<img src="https://i.ibb.co/VL6Vc6Q/login.png" alt="login" border="0">
+<img src="https://i.ibb.co/wsZ6Z1P/main-home.png" alt="main-home" border="0">
+<img src="https://i.ibb.co/8YJs3MY/main-home2.png" alt="main-home2" border="0">
+
+
+*/

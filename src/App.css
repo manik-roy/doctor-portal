@@ -1,0 +1,18 @@
+tbody tr td {
+  border: none !important;
+}
+.table td, .table th {
+  vertical-align: bottom;
+  padding-bottom: 5px;
+}
+.tableBtn {
+  border-radius: 0;
+  padding: 5px 20px 5px 20px;
+  color: #fff;
+  outline: 0;
+  background-image:linear-gradient(to right, #19D3B0, #0FCFE8)
+}
+.tableBtn:hover {
+  color: #fff;
+  background-image:linear-gradient(to left, #19D3B0, #0FCFE8)
+}

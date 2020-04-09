@@ -1,0 +1,20 @@
+.pending-appointment {
+  background-color: #F1536E;
+}
+
+.today-appointment {
+  background-color: #3DA5F4;
+}
+
+.total-appointment {
+  background-color: #00C689;
+}
+
+.total-patients {
+  background-color: #FDA006;
+}
+
+.col-md-3 div h6.w-50 {
+  font-size: 35px;
+  font-weight: 700;
+}

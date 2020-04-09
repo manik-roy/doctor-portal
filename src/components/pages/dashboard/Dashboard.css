@@ -1,0 +1,158 @@
+body {
+  font-size: .875rem;
+
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0; /* Height of navbar */
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+/* custom css */
+p {
+  margin: 0;
+}
+
+h2 {
+  color: #18D2B1;
+}
+
+/* Custom css */
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+  .sidebar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Content
+ */
+
+[role="main"] {
+  padding-top: 133px; /* Space for fixed navbar */
+}
+
+@media (min-width: 768px) {
+  [role="main"] {
+    padding-top: 10px; /* Space for fixed navbar */
+  }
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+/* sidebar nav */
+.nav-link span.material-icons {
+  padding-right: 10px;
+}
+.sidebar-sticky ul .nav-item {
+  margin: 5px 0;
+  color: #fff;
+}
+.sidebar-sticky ul .nav-item a {
+  margin: 5px 0;
+  color: #fff;
+}
+.sidebar {
+  background-image:linear-gradient( #18D2AE, #0FCFEA) ;
+}
+.logout-aria {
+  position: absolute;
+  width: 100%;
+  bottom: 50px;
+  left: 20%;
+  color: #fff;
+  cursor: pointer;
+
+}
+.logout-btn {
+ 
+}
+
+
+
+
+
+/* Header navbar */
+.header-nav,.main-content-wrapper {
+  background-color:#F4FDFB;
+}
+.main-content-wrapper {
+  height: 100vh;
+}
+/* content header */
+.pending-appointment{
+  background-color: #F1536E;
+}
+.today-appointment {
+  background-color: #3DA5F4;
+}
+.total-appointment {
+  background-color: #00C689;
+}
+.total-patients{
+  background-color: #FDA006;
+}
+.col-md-3 div h6.w-50 {
+  font-size: 35px;
+  font-weight: 700;
+}
