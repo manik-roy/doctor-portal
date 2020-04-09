@@ -9,7 +9,7 @@ const AvailableAppointments = ({date}) => {
 
   useEffect(()=> {
       const getData = async () => {
-        const response =  await axios.get(' http://localhost:3000/api/v1/clinics')
+        const response =  await axios.get('https://edoctor-portal.herokuapp.com/api/v1/clinics')
         setAvailableClinic(response.data.data)
       }
       getData();

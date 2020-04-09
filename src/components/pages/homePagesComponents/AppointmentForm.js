@@ -43,7 +43,7 @@ const AppointmentForm = ( props) => {
       }
 
       try {
-        await axios.post(`http://localhost:3000/api/v1/appointments`, formData)
+        await axios.post(`https://edoctor-portal.herokuapp.com/api/v1/appointments`, formData)
         notify()
         setIsLoading(false)
         props.history.push('/create-appointment')

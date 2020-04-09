@@ -12,7 +12,7 @@ const Patients = () => {
     const getTableData = async () => {
       setIsLoading(true)
       try {
-        const response = await axios.get('http://localhost:3000/api/v1/users');
+        const response = await axios.get('https://edoctor-portal.herokuapp.com/api/v1/users');
         setPatients(response.data.data)
         setIsLoading(false)
       } catch (error) {

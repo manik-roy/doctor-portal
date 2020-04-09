@@ -30,7 +30,7 @@ const Calender = () => {
     const getTableData = async () => {
       try {
         setIsLoading(true)
-        const response = await axios.get(`http://localhost:3000/api/v1/appointments/?filter=${formatDate}`)
+        const response = await axios.get(`https://edoctor-portal.herokuapp.com/api/v1/appointments/?filter=${formatDate}`)
         setFilterData(response.data.data.appointments)
         setIsLoading(false)
       } catch (error) {

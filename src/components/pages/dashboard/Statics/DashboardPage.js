@@ -12,7 +12,7 @@ const DashboardPage = () => {
     const getTableData = async () => {
       setIsLoading(true)
       try {
-        const response = await axios.get('http://localhost:3000/api/v1/appointments/?limit=10')
+        const response = await axios.get('https://edoctor-portal.herokuapp.com/api/v1/appointments/?limit=10')
         setTableData(response.data.data.appointments)
         setIsLoading(false)
       } catch (error) {
